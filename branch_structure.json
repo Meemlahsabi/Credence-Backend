@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/1012-structured-error-codes",
+    "fix/1021-shutdown-drain-timing",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/1012-structured-error-codes": "main",
+    "fix/1021-shutdown-drain-timing": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/1012-structured-error-codes",
+    "fix/1021-shutdown-drain-timing",
+    "origin"
+  ]
+}
